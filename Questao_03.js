@@ -1,4 +1,3 @@
-var qtd=3;
 
 var nomeAluno = [3];
 nomeAluno[0]= "João da Silva";
@@ -15,9 +14,9 @@ segundaNota[0]=8.5;
 segundaNota[1]=2;
 segundaNota[2]=10;
 
-for (var i=0; i < qtd; i++){
+for (var i=0; i < 3; i++){
 var resultadoP = primeiraNota[i]*0.6;
 var resultadoS = segundaNota[i]*0.4;
 var soma = resultadoP + resultadoS;
-alert(soma);
+alert("Nome do aluno\n"+nomeAluno[i]+"Nota1:\n"+primeiraNota[i]+,"Nota2:\n"+segundaNota[i]);
 }
